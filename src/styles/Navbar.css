@@ -1,0 +1,60 @@
+.navbar-container {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 20px 40px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 10%, transparent);
+}
+
+.logo {
+    width: 100px;
+    margin-right: 40px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.button-tertiary {
+    transition: color 100ms linear;
+    padding: 0px;
+    margin: 0px 10px;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 400;
+    border: none;
+    background: none;
+    color: rgb(230, 230, 230);
+    outline: none;
+}
+
+.button-tertiary:hover {
+    cursor: pointer;
+    color: rgb(180, 180, 180);
+}
+
+.button-tertiary-active {
+    font-family: Roboto;
+    font-weight: 500;
+    color: white;
+}
+
+.button-tertiary-active:hover {
+    color: white;
+    cursor: unset;
+}
+
+.navbar-container > svg {
+    color: white;
+    margin: 0px 10px;
+}
+
+.profile-image {
+    width: 32px;
+    height: 32px;
+}

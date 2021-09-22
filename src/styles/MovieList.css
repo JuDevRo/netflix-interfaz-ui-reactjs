@@ -1,0 +1,76 @@
+.movie-list-container {
+    position: relative;
+    margin-top: -100px;
+}
+
+.title {
+    font-size: 24px;
+    padding-left: 80px;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.movie {
+    transition: transform 200ms ease-in-out, margin 200ms ease-in-out;
+    margin: 0px 2px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.movie:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    margin: 0px 40px;
+}
+
+.movies section {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    position: relative;
+    margin: 40px 0px;
+}
+
+.movie-title {
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    opacity: 0;
+}
+
+.movie:hover .movie-title {
+    opacity: 1;
+}
+
+.previous {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.next {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.previous svg, .next svg {
+    color: white;
+    font-size: 48px;
+}

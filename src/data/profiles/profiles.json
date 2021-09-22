@@ -1,0 +1,18 @@
+[
+    {
+        "image_src": "assets/images/profile_1.png",
+        "username": "Cat"
+    },
+    {
+        "image_src": "assets/images/profile_2.png",
+        "username": "Person"
+    },
+    {
+        "image_src": "assets/images/profile_3.png",
+        "username": "Bird"
+    },
+    {
+        "image_src": "assets/images/profile_4.png",
+        "username": "Dog"
+    }
+]
