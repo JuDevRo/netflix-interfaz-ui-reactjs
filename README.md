@@ -1,6 +1,12 @@
 ## Qué es el proyecto?
 Aquí desarrolle la interfaz de Netflix con ReactJS, se pueden mejorar varias cosas como tambien aplicar React Router para las rutas de la app, en el proyecto solo busco implementar react nativo para poner a prueba mis conocimientos, cualquier aporte sobre el codigo es bienvenido
 
+Para instalar react:
+npx create-react-app "nombre del proyecto" --template typescript
+
+Las dependencias que utilize para los iconos:
+npm i @material-ui/core @material-ui/icons
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
